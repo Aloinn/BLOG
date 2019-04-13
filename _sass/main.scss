@@ -107,7 +107,11 @@ a:hover{
   -moz-box-shadow: 0px 0px 0px 4px $color-accent;
   box-shadow: 0px 22px 0px -8px $color-accent, 0px 18px 0px 8px $color-medium;
 }
-
+img{
+  width:100%;
+  border: 2px solid $color-dark;
+  margin-bottom:20px;
+}
 .textbox{
   width:auto;
   padding:20px;
