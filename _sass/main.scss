@@ -138,11 +138,13 @@ img{
   overflow: hidden;
   border-radius: 50%;
   box-sizing: border-box;
+  border: 6px solid $color-dark;
 }
 .circle-image{
-  width: auto;
-  height: 100%;
-  margin-left: -50px;
+  background-color: black;
+  width: 120%;
+  height: auto;
+  border:0px;
 }
 
 .container-image{

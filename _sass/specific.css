@@ -1,0 +1,19 @@
+#title {
+  flex: 10;
+  text-align: center;
+  margin-left: 50px;
+  padding: 10px 0px 40px 0px;
+  font-size: 5em;
+  background-color: transparent;
+  font-weight: 0;
+  text-transform: none; }
+
+#nav {
+  align-self: flex-start;
+  flex: 1;
+  background-color: transparent; }
+
+#me {
+  margin-top: -150px; }
+
+/*# sourceMappingURL=specific.css.map */
