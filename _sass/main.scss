@@ -53,9 +53,10 @@ body{
   background: #efefef;
   padding: 5px;
   height:auto;
-  text-transform: capitalize;
-  color: white;
-  font-size: 1.4rem;
+  //text-transform: capitalize;
+  a{
+    font-size: 1.4rem;
+  }
   text-align: center;
 }
 .flex-button{
@@ -84,6 +85,7 @@ b{
   color:$color-medium;
 }
 p{
+  color:$color-dark;
   font-size:1.5em;
   letter-spacing:-0.05em;
   word-spacing:0.2em;
@@ -131,6 +133,7 @@ img{
   box-shadow:0px 2px 0px 0px $color-dark;
 }
 .container-circle-image{
+  margin-left:25px;
   display: inline-block;
   position: relative;
   width: 200px;

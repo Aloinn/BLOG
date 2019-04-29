@@ -44,10 +44,9 @@ body {
   background: #efefef;
   padding: 5px;
   height: auto;
-  text-transform: capitalize;
-  color: white;
-  font-size: 1.4rem;
   text-align: center; }
+  .flex-item a {
+    font-size: 1.4rem; }
 
 .flex-button {
   letter-spacing: -1px;
@@ -73,6 +72,7 @@ b {
   color: #E07A5F; }
 
 p {
+  color: #222333;
   font-size: 1.5em;
   letter-spacing: -0.05em;
   word-spacing: 0.2em;
@@ -115,6 +115,7 @@ img {
   box-shadow: 0px 2px 0px 0px #222333; }
 
 .container-circle-image {
+  margin-left: 25px;
   display: inline-block;
   position: relative;
   width: 200px;
