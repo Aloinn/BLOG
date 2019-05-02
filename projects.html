@@ -8,14 +8,19 @@ layout: default
   </p>
 </div>
 
+
+{% for a in site.proj %}
 <div class="container-image">
-<img src="/assets/images/CA-islands.png">
+<img src="{{ a.picture }}">
 </div>
 <div class="container">
   <div class="mini-container">
     <div class="textbox d4 bgpale">
-      <p class="bold text-medium">Procedural Generator</p>
-      <p>Asgsagas</p>
+
+      <p class="bold text-medium">{{ a.name }}</p>
+      <p> {{ a.content }} </p>
+
     </div>
   </div>
 </div>
+{% endfor %}

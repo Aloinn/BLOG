@@ -133,7 +133,7 @@ img{
   box-shadow:0px 2px 0px 0px $color-dark;
 }
 .container-circle-image{
-  margin-left:25px;
+  margin-left:35px;
   display: inline-block;
   position: relative;
   width: 200px;
@@ -145,7 +145,6 @@ img{
 }
 .circle-image{
   background-color: black;
-  width: 120%;
   height: auto;
   border:0px;
 }
@@ -165,9 +164,17 @@ img{
   font-size:3em;
 }
 .text-medium{
-  font-size:2.3em;
+  font-size:2.1em;
 }
-
+.text-left{
+  text-align:left;
+}
+.text-right{
+  text-align:right;
+}
+.text-center{
+  text-align:center;
+}
 .placeholder{
   display:block;
   visibility:hidden;
