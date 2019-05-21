@@ -3,8 +3,11 @@ title: projects!
 layout: default
 ---
 <div class="container">
-  <p class="textbox s1 bold text-medium bgpale">
+  <p class="textbox mu1 s2 bold text-big text-center bgdark">
     Here are some of my works
+  </p>
+  <p class="textbox s1 small bgpale">
+
   </p>
 </div>
 
@@ -13,14 +16,15 @@ layout: default
 <div class="container-image s3">
 <img src="{{ a.picture }}">
 </div>
-<div class="container">
+<div class="container md2">
   <div class="mini-container">
-    <div class="textbox s1 bgpale">
-
-      <p class="bold text-medium">{{ a.name }}</p>
-      <p> {{ a.content }} </p>
-
-    </div>
+    <p class="textbox bold text-medium s1 bgpale">
+      {{ a.name }}
+    </p>
   </div>
+
+  <p class="textbox mun1 s1 text-small small bgpale">
+    {{ a.content }}
+  </p>
 </div>
 {% endfor %}

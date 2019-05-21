@@ -21,7 +21,7 @@ body{
 }
 .mini-container{
   margin:auto;
-  width:80%;
+  width:85%;
 }
 .flex-container{
   width:100%;;
@@ -91,6 +91,9 @@ p{
   word-spacing:0.2em;
   line-height: 1.1em;
 }
+a{
+  color:$color-accent;
+}
 a:hover{
   text-decoration: underline;
   color:$color-accent
@@ -111,8 +114,12 @@ a:hover{
   color: $color-pale;
 }
 
+.mun1{
+  margin-top:-20px;
+}
+
 .mu1{
-  margin-top:20px;
+  margin-top:25px;
 }
 
 .mu2{
@@ -135,10 +142,13 @@ a:hover{
   margin-bottom:70px !important;
 }
 
-.small{ // TEXTAFTER MAIN PART
+.small{
   margin-left:80px;
   margin-right:80px;
-
+}
+.medium{
+  margin-left:20px;
+  margin-right:20px;
 }
 
 .s1{ // BUTTON BEHIND TEXTBOX
@@ -154,7 +164,8 @@ a:hover{
 
 .s3{ // OUTLINES FOR PROJECTS
   box-shadow: 0px 20px 0px 0px $color-dark,
-    -20px 120px 0px -50px $color-accent, 20px 120px 0px -50px $color-accent;
+    -20px 120px 0px -50px $color-accent, 20px 120px 0px -50px $color-accent,
+    -20px 120px 0px -45px $color-dark, 20px 120px 0px -45px $color-dark;
 }
 
 img{
@@ -195,6 +206,11 @@ img{
 .text-medium{
   font-size:2.1em;
 }
+.text-small{
+  font-size:1.2em;
+  line-height:1.5em;
+}
+
 .text-left{
   text-align:left;
 }
@@ -208,7 +224,6 @@ img{
   display:block;
   visibility:hidden;
 }
-
 @media only screen and (max-width : 600px) {
   .placeholder{
     display:none;

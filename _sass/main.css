@@ -12,7 +12,7 @@ body {
 
 .mini-container {
   margin: auto;
-  width: 80%; }
+  width: 85%; }
 
 .flex-container {
   width: 100%;
@@ -78,6 +78,9 @@ p {
   word-spacing: 0.2em;
   line-height: 1.1em; }
 
+a {
+  color: #81B29A; }
+
 a:hover {
   text-decoration: underline;
   color: #81B29A; }
@@ -85,7 +88,7 @@ a:hover {
 .q {
   font-family: "Anton", sans-serif;
   font-size: 1.3em;
-  margin: 10px 0px 10px 0px;
+  margin: 15px 0px 10px 0px;
   text-align: center;
   display: block; }
 
@@ -96,8 +99,11 @@ a:hover {
   background-color: #222333;
   color: #F4EFCB; }
 
+.mun1 {
+  margin-top: -20px; }
+
 .mu1 {
-  margin-top: 20px; }
+  margin-top: 25px; }
 
 .mu2 {
   margin-top: 50px; }
@@ -118,6 +124,10 @@ a:hover {
   margin-left: 80px;
   margin-right: 80px; }
 
+.medium {
+  margin-left: 20px;
+  margin-right: 20px; }
+
 .s1 {
   box-shadow: 0px 20px 0px 0px #E07A5F, 0px 20px 0px 5px #222333, 0px -1px 0px 5px #222333;
   margin-bottom: 35px; }
@@ -128,7 +138,7 @@ a:hover {
   box-shadow: 0px 40px 0px -20px #81B29A, 0px 40px 0px -15px #222333, 0px -40px 0px -20px #81B29A, 0px -40px 0px -15px #222333, 0px 0px 0px 5px #222333; }
 
 .s3 {
-  box-shadow: 0px 20px 0px 0px #222333, -20px 120px 0px -50px #81B29A, 20px 120px 0px -50px #81B29A; }
+  box-shadow: 0px 20px 0px 0px #222333, -20px 120px 0px -50px #81B29A, 20px 120px 0px -50px #81B29A, -20px 120px 0px -45px #222333, 20px 120px 0px -45px #222333; }
 
 img {
   margin-top: 15px;
@@ -167,6 +177,10 @@ img {
 
 .text-medium {
   font-size: 2.1em; }
+
+.text-small {
+  font-size: 1.2em;
+  line-height: 1.5em; }
 
 .text-left {
   text-align: left; }
