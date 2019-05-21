@@ -101,30 +101,45 @@ a:hover{
   background-color: $color-pale;
 }
 
-.d2{
-  webkit-box-shadow: 0px 15px 0px 4px $color-medium;
-  -moz-box-shadow: 0px 15px 0px 4px $color-medium;
-  box-shadow: -12px 15px 0px -4px $color-medium, 12px 15px 0px -4px $color-medium;
+.d1{ // D1 IS TITLE MARGINS
   margin-top:20px;
-  margin-bottom:50px;
 }
 
-.d3{
-  webkit-box-shadow: 0px 15px 0px 4px $color-medium;
-  -moz-box-shadow: 0px 15px 0px 4px $color-medium;
-  box-shadow: -12px 15px 0px -4px $color-medium, 12px 15px 0px -4px $color-medium;
+.d2{ // D2 IS FOR THE TEXTBOX BESIDE PICTURE
   margin-top:20px;
-  margin-left:40px;
-  margin-right:40px;
-  margin-bottom:50px;
+  margin-bottom:50px !important;
 }
 
-.d4{
-    margin-bottom:40px;
+.d3{ // D3 IS FOR PROJECTS
+  margin-bottom:40px;
   -webkit-box-shadow: 0px 12px 0px 8px $color-medium;
   -moz-box-shadow:  0px 12px 0px 8px $color-medium;
   box-shadow: 0px 12px 0px 8px $color-medium;
 }
+
+.d5{
+  margin-bottom:40px;
+  margin-left:80px;
+  margin-right:80px;
+  margin-top:30px;
+
+}
+
+.s1{ // BUTTON BEHIND TEXTBOX
+  box-shadow: 0px 20px 0px 0px $color-medium, 0px 20px 0px 5px $color-dark, 0px -1px 0px 5px $color-dark;
+  margin-bottom:35px;
+}
+.s2{ // TINT BEHIND TEXTBOX
+  webkit-box-shadow: 0px 15px 0px 4px $color-medium;
+  -moz-box-shadow: 0px 15px 0px 4px $color-medium;
+  box-shadow: -12px 15px 0px -4px $color-medium, 12px 15px 0px -4px $color-medium;
+}
+
+.s3{ // OUTLINES FOR PROJECTS
+  box-shadow: -8px 16px 0px 0px $color-medium, 8px 16px 0px 0px $color-medium,
+    -20px 120px 0px -50px $color-accent,20px 120px 0px -50px $color-accent;
+}
+
 img{
   image-orientation: from-image;
   box-sizing: border-box;
@@ -136,25 +151,21 @@ img{
   margin-left:35px;
   display: inline-block;
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   overflow: hidden;
   border-radius: 50%;
   box-sizing: border-box;
   border: 6px solid $color-dark;
 }
+.container-image{
+  margin:auto;
+  margin-bottom:-5px;
+}
 .circle-image{
   background-color: black;
   height: auto;
   border:0px;
-}
-
-.container-image{
-  box-shadow: -8px 16px 0px 0px $color-medium, 8px 16px 0px 0px $color-medium,
-    -20px 120px 0px -50px $color-accent,20px 120px 0px -50px $color-accent;
-  margin:auto;
-  margin-bottom:-5px;
-  width:80%;
 }
 .textbox{
   width:auto;
@@ -179,6 +190,7 @@ img{
   display:block;
   visibility:hidden;
 }
+
 @media only screen and (max-width : 600px) {
   .placeholder{
     display:none;

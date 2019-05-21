@@ -3,19 +3,19 @@ title: projects!
 layout: default
 ---
 <div class="container">
-  <p class="textbox d3 bold text-medium bgpale">
+  <p class="textbox d1 bold text-medium bgpale">
     Here are some of my works
   </p>
 </div>
 
 
 {% for a in site.proj %}
-<div class="container-image">
+<div class="container-image s3">
 <img src="{{ a.picture }}">
 </div>
 <div class="container">
   <div class="mini-container">
-    <div class="textbox d4 bgpale">
+    <div class="textbox d3 bgpale">
 
       <p class="bold text-medium">{{ a.name }}</p>
       <p> {{ a.content }} </p>
