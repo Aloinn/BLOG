@@ -92,6 +92,11 @@ a:hover {
   text-align: center;
   display: block; }
 
+.c {
+  font-weight: 400;
+  display: block;
+  margin-bottom: 5px; }
+
 .bgpale {
   background-color: #F4EFCB; }
 
