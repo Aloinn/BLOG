@@ -172,7 +172,8 @@ img {
   border: 6px solid #222333; }
 
 .container-image {
-  background-color: transparent; }
+  background-color: transparent;
+  margin: auto; }
 
 .circle-image {
   background-color: black;
