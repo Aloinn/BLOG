@@ -2,3 +2,49 @@
 title: blog
 layout: default
 ---
+<div class="container">
+  <p class="textbox mu1 s2 bold text-big text-center bgdark">
+    Here are updates on my works/life
+  </p>
+  <p class="textbox s1 small bgpale">
+  </p>
+
+{% for a in site.posts %}
+
+  <div class="flex-container">
+
+    <div class="container-image flex-item">
+      <img src="{{ a.picture }}">
+    </div>
+
+    <div class="flex-item flex-container flex-vertical medium mu1 s1 textbox bgpale">
+      <p class="flex-item fc fn flex-container text-small">
+        <span class="flex-item bold text-small text-left">
+          {{ a.title }}
+        </span>
+        <span class="flex-item fn text-small text-right">
+          <b>{{ a.date | date_to_string }}</b>
+        </span>
+      </p>
+      <p class="flex-item fc text-small">
+        {{a.excerpt}}
+      </p>
+    </div>
+  </div>
+{% endfor %}
+
+</div>
+
+<!--div class="container">
+  <div class="mini-container">
+    <p class="textbox bold text-medium text-center s1 bgpale">
+      {{ a.name }}
+    </p>
+  </div>
+
+  <p class="textbox mun1 s1 text-small small bgpale">
+    {{ a.content }}
+    </br><b><a href="{{ a.link }}">[ Check it out here! ]</a></b>
+  </p>
+
+</div-->

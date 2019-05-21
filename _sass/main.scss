@@ -24,6 +24,7 @@ body{
   width:85%;
 }
 .flex-container{
+  flex-direction: row;
   width:100%;;
   padding: 0;
   margin: 0px auto;
@@ -50,7 +51,6 @@ body{
   margin:2px;
   text-decoration:none;
   flex:1;
-  background: #efefef;
   padding: 5px;
   height:auto;
   //text-transform: capitalize;
@@ -59,6 +59,14 @@ body{
   }
   text-align: center;
 }
+.fn{
+  flex:none;
+}
+.fc{
+  margin:0px !important;
+  padding:0px !important;
+}
+
 .flex-button{
   letter-spacing: -1px;
   text-transform: none;
@@ -193,8 +201,8 @@ img{
   border: 6px solid $color-dark;
 }
 .container-image{
-  margin:auto;
-  margin-bottom:-5px;
+  background-color: transparent;
+  //margin:auto;
 }
 .circle-image{
   background-color: black;
