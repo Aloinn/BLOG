@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="{{site.url}}/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Anton|Lato" rel="stylesheet">
   </head>
   <body>
@@ -12,10 +12,10 @@
       <div class="flex-item flex-button placeholder">projects</div>
       <h1 class="flex-item bold" id="title">{{ page.title }}</h1>
       <nav class="flex-item flex-container flex-vertical" id="nav">
-          <a href="/" class="flex-item flex-button bright bold">aloinn</a>
-          <a href="/assets/pages/projects.html" class="flex-item flex-button bright">projects</a>
-          <a href="/assets/pages/blog.html" class="flex-item flex-button bright">blog</a>
-          <a href="/assets/pages/about.html" class="flex-item flex-button bright">about</a>
+          <a href="{{site.url}}" class="flex-item flex-button bright bold">aloinn</a>
+          <a href="{{site.url}}/assets/pages/projects.html" class="flex-item flex-button bright">projects</a>
+          <a href="{{site.url}}/assets/pages/blog.html" class="flex-item flex-button bright">blog</a>
+          <a href="{{site.url}}/assets/pages/about.html" class="flex-item flex-button bright">about</a>
         </nav>
       </div>
     </div>
