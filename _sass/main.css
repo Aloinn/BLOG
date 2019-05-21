@@ -85,6 +85,10 @@ a:hover {
 .bgpale {
   background-color: #F4EFCB; }
 
+.bgdark {
+  background-color: #222333;
+  color: #F4EFCB; }
+
 .d1 {
   margin-top: 20px; }
 
@@ -98,8 +102,8 @@ a:hover {
   -moz-box-shadow: 0px 12px 0px 8px #E07A5F;
   box-shadow: 0px 12px 0px 8px #E07A5F; }
 
-.d5 {
-  margin-bottom: 40px;
+.d4 {
+  margin-bottom: 30px;
   margin-left: 80px;
   margin-right: 80px;
   margin-top: 30px; }
@@ -109,9 +113,10 @@ a:hover {
   margin-bottom: 35px; }
 
 .s2 {
+  margin-top: 50px;
   webkit-box-shadow: 0px 15px 0px 4px #E07A5F;
   -moz-box-shadow: 0px 15px 0px 4px #E07A5F;
-  box-shadow: -12px 15px 0px -4px #E07A5F, 12px 15px 0px -4px #E07A5F; }
+  box-shadow: 0px 40px 0px -20px #81B29A, 0px 40px 0px -15px #222333, 0px -40px 0px -20px #81B29A, 0px -40px 0px -15px #222333; }
 
 .s3 {
   box-shadow: -8px 16px 0px 0px #E07A5F, 8px 16px 0px 0px #E07A5F, -20px 120px 0px -50px #81B29A, 20px 120px 0px -50px #81B29A; }
@@ -124,6 +129,7 @@ img {
   box-shadow: 0px 2px 0px 0px #222333; }
 
 .container-circle-image {
+  margin-top: 15px;
   margin-left: 35px;
   display: inline-block;
   position: relative;
