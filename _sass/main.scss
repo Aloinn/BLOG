@@ -6,7 +6,7 @@ $color-dark: #222333;
 $font-head: 'Anton', sans-serif;
 
 body{
-  font-size: 0.7em;
+  font-size: 1em;
   color:$color-dark;
   background-color: $color-bright;
   font-family: 'Lato', sans-serif;
@@ -16,8 +16,7 @@ body{
 // CONTAINERS
 .container{
   margin:auto;
-  width:100%;
-  height:100%;
+  width:800px;
 }
 .mini-container{
   margin:auto;
@@ -200,10 +199,6 @@ img{
   box-sizing: border-box;
   border: 6px solid $color-dark;
 }
-.container-image{
-  background-color: transparent;
-  margin:auto;
-}
 .circle-image{
   background-color: black;
   height: auto;
@@ -237,27 +232,55 @@ img{
   display:block;
   visibility:hidden;
 }
-@media only screen and (max-width : 600px) {
+
+@media only screen and (max-width : 800px) {
+  // MOBILE
+  body{
+    font-size:0.75em;
+  }
   .placeholder{
     display:none;
   }
   #title{
-    margin-left:15px;
+    margin-left:20px !important;
     text-align: left !important;
   }
-}
-
-@media only screen and (min-width : 800px) {
   .container{
-    width:800px;
+    margin:auto;
+    width:100%;
+    height:100%;
+  }
+  .small{
+    margin-left:35px;
+    margin-right:35px;
+  }
+  .container-circle-image{
+    margin-right:30px;
+    margin-left:10px;
+  }
+  .container-image{
+    margin-left:20px;
+    margin-right:20px;
+  }
+  .s2{
+    margin-left:15px;
+    margin-right:15px;
+  }
+
+  .s3{ // OUTLINES FOR PROJECTS
+    box-shadow: 0px 20px 0px 0px $color-dark,
+      0px 200px 0px -50px $color-accent, 0px 200px 0px -50px $color-accent,
+      0px 200px 0px -45px $color-dark, 0px 200px 0px -45px $color-dark;
   }
 }
 
-@media only screen and (min-width : 900px) {
+// MAIN
+@media only screen and (min-width : 800px) {
   body{
     font-size:1em;
   }
   .container-image{
+    margin:auto;
     width:800px;
   }
 }
