@@ -1,19 +1,19 @@
 /*
 Error: Undefined variable: "$font-head".
-        on line 30 of D:\BLOG\_sass\specific.scss
+        on line 24 of C:\Users\oneal\BLOG\_sass\specific.scss
 
-25:     margin-bottom:5px;
+19:   width: 100%;
+20: }
+21: #contact{
+22:   b{
+23:     letter-spacing: 1px;
+24:     font-family: $font-head;
+25:     color: $color-dark;
 26:   }
-27:   b{
-28:     letter-spacing: 1px;
-29:     font-weight: 400;
-30:     font-family: $font-head;
-31:     color: $color-dark;
-32:   }
-33: }
+27: }
 
 Backtrace:
-D:\BLOG\_sass\specific.scss:30
+C:\Users\oneal\BLOG\_sass\specific.scss:24
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -71,4 +71,4 @@ C:/Ruby26-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-head\".\A         on line 30 of D:\BLOG\_sass\specific.scss\A \A 25:     margin-bottom:5px;\A 26:   }\A 27:   b{\A 28:     letter-spacing: 1px;\A 29:     font-weight: 400;\A 30:     font-family: $font-head;\A 31:     color: $color-dark;\A 32:   }\A 33: }"; }
+  content: "Error: Undefined variable: \"$font-head\".\A         on line 24 of C:\Users\oneal\BLOG\_sass\specific.scss\A \A 19:   width: 100%;\A 20: }\A 21: #contact{\A 22:   b{\A 23:     letter-spacing: 1px;\A 24:     font-family: $font-head;\A 25:     color: $color-dark;\A 26:   }\A 27: }"; }
